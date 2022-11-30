@@ -13,7 +13,7 @@ while(turnosN <= M):
         Ti = int(input("Digite o número: "))
         #remove os multiplos da posição atraves do Ti                   
         for i in range(1, len(convidados) + 1):
-            if(i % Ti == 0 and i <= len(convidados)):
+            if(i % Ti == 0):
                 convidados[i - 1] = 0
         #função que filtra a lista removendo todos os 0´s(descomentar abaixo)
         #forma 1 de resolver
